@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import Workouts from './Components/Workouts/Workouts';
 import Exercise from './Components/Exercise/Exercise';
+import SignupForm from './Components/SignupForm/SignupForm';
 
 
 class App extends Component {
@@ -61,11 +63,15 @@ class App extends Component {
 
     return (
       <>
+      {/* <Switch> */}
       < NavBar 
         toggle={this.toggle}
         toggleStatus={this.state.toggle} 
       />
+      {/* <Route exact path='/workouts/' render={({ history }) =>  */}
       <Workouts />
+      {/* }/> */}
+
 
       <div className="Workouts">
       <hr />
@@ -113,6 +119,7 @@ class App extends Component {
         })}
 
       </div>
+      {/* </Switch> */}
       </>
     );
   }
