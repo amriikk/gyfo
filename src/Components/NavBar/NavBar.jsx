@@ -23,8 +23,8 @@ const NavBar = (props) => {
         },
       ];  
 
-    return(
-        <div className="navBar">
+      return(
+          <div className="navBar">
             <button onClick={props.toggle}>
                 <FaAlignRight />
             </button>
@@ -39,4 +39,4 @@ const NavBar = (props) => {
     ) 
 }
 
-export default NavBar
+export default NavBar;

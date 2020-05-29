@@ -74,6 +74,16 @@ text-decoration: none;
   }
 }
 
-h1 {
+h3, p {
   color: slategray;
+  text-align: center;
 }
+
+form {
+  color: aliceblue;
+}
+
+body {
+  background: url(https://i.imgur.com/PKMRjK9.jpg);
+}
+
