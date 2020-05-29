@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+}    
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+  background: url(https://i.imgur.com/PKMRjK9.jpg) no-repeat;
+  font-family: 'Josefin Sans', cursive;
 }
 
 .App-header {
@@ -11,21 +18,21 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+}  
 
 .App-link {
   color: #61dafb;
-}
+}  
 
 /* Elements */
 a {
   text-decoration: none;
   color: slategray
-}
+}  
 
 li {
   padding: 10px 0;
-}
+}  
 
 button {
   font-size: 30px;
@@ -36,18 +43,18 @@ button {
   cursor: pointer;
   outline: none;
   float: right;
-}
+}  
 
 /* Class */
 .navBar {
   width: 100%;
-  background-color: black;
+  background-color: rgb(0,0,0,.5);
   color: cyan;
   padding: 10px;
-}
+}  
 
 .links {
-height: 0;
+height: 0;  
 overflow: hidden;
 list-style-type: none;
 font-weight: bold;
@@ -56,34 +63,40 @@ text-decoration: none;
 
 .show-nav {
   height: 150px;
-}
+}  
 
 /* Media screen size */
 @media screen and (min-width: 768px) {
   button {
       display: none;
-  }
+  }    
 
   .links {
       height: auto;
       display: flex;
-  }
+  }    
 
   li {
       padding: 0 10px;
-  }
-}
+  }    
+}  
 
 h3, p {
   color: slategray;
   text-align: center;
-}
+}  
 
 form {
   color: aliceblue;
+  padding: 0 20px;
+}  
+
+input {
+  font-family: 'Josefin Sans', cursive;
+  background: skyblue;
 }
 
-body {
-  background: url(https://i.imgur.com/PKMRjK9.jpg);
+div.Exercise {
+  border-radius: 8px;
+  background: rgb(0,0,0,.5);
 }
-

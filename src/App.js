@@ -1,17 +1,19 @@
 import React, {Component} from 'react';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
-
-import Exercise from './Components/Exercise/Exercise';
 import Workouts from './Components/Workouts/Workouts';
+import Exercise from './Components/Exercise/Exercise';
+
 
 class App extends Component {
   state = {
     firstName: "",
     lastName: "",
     email: "",
-    customers: [],
 
+    name: "",
+    reps: "",
+    description: "",
     exercises: [],
 
     toggle: false
@@ -31,30 +33,30 @@ class App extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    const { firstName, lastName, email } = this.state;
+    const { name, reps, description } = this.state;
 
-    // push new customer object into the customers list in state:
+    // push new customer object into the exercises list in state:
     this.setState(
       {
-        customers: [
-          ...this.state.customers,
+        exercises: [
+          ...this.state.exercises,
           {
-            firstName,
-            lastName,
-            email
+            name,
+            reps,
+            description
           }
         ]
       },
       // blank out the inputs after state update completes:
       () => {
-        this.setState({ firstName: "", lastName: "", email: "" });
+        this.setState({ name: "", reps: "", description: "" });
       }
     );
   };
 
 
   render() {
-    const { firstName, lastName, email } = this.state;
+    const { name, reps, description } = this.state;
     const { handleChange } = this;
 
     return (
@@ -73,41 +75,41 @@ class App extends Component {
             NAME :
             <input
               type="text"
-              name="firstName"
-              id="firstName"
-              value={firstName}
+              name="name"
+              id="name"
+              value={name}
               onChange={handleChange}
             />
           </label>
-          <br />
+          <br /><br />
           <label>
             REPS :
             <input
               type="text"
-              name="lastName"
-              id="lastName"
-              value={lastName}
+              name="reps"
+              id="reps"
+              value={reps}
               onChange={handleChange}
             />
           </label>
-          <br />
+          <br /><br />
           <label>
             DESCRIPTION : 
             <input
               type="text"
-              name="email"
-              id="email"
-              value={email}
+              name="description"
+              id="description"
+              value={description}
               onChange={handleChange}
             />
           </label>
-          <br />
-          <input type="submit" value="Register" />
-        </form>
-
-        <hr />
-        {this.state.customers.map(customer => {
-          return <Exercise key={customer.email} {...customer} />;
+          <br /><br />
+          <input type="submit" value="Enter" />
+      </form>
+        <br /><br />
+        
+        {this.state.exercises.map(customer => {
+          return <Exercise key={customer.description} {...customer} />;
         })}
 
       </div>
