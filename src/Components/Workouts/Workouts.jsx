@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 import './Workouts.css'
 
 class Workouts extends Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-
   state = {
     name: "",
     reps: "",
@@ -24,7 +20,7 @@ class Workouts extends Component {
     console.log(this.props);
     this.props.handleSubmit({name, reps, description});
 
-    // push new customer object into the exercises list in state:  
+    // push new exercise object into the exercises list in state:  
         this.setState({ name: "", reps: "", description: "" });
   };
 

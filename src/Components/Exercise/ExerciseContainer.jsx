@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ExerciseDetails from './ExerciseDetails'
 
 const ExerciseContainer = (props) => {
