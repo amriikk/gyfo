@@ -1,4 +1,4 @@
-export function getCurrentLatLng() {
+function getCurrentLatLng() {
     // Wrap getCurrentPosition to return a promise
     return new Promise( (resolve, reject) => {
       navigator.geolocation.getCurrentPosition(
@@ -13,3 +13,5 @@ export function getCurrentLatLng() {
       );
     });
   }
+
+  export default getCurrentLatLng;

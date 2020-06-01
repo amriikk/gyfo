@@ -1,18 +1,15 @@
 import React, {Component} from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import NavBar from '../../Components/NavBar/NavBar';
 import Workouts from '../../Components/Workouts/Workouts';
 import ExerciseContainer from '../../Components/Exercise/ExerciseContainer';
-import SignupForm from '../../Components/SignupForm/SignupForm';
 import LoginPage from '../LoginPage/LoginPage'
 import SignupPage from '../SignupPage/SignupPage'
 import userService from "../../utils/userService";
 import Map from '../../Components/Map/Map';
-// import { getCurrentLatLng } from '../../services/geolocation';
-// import { getCurWeatherByLatLng } from '../../services/weather-api';
-
-
+import getCurrentLatLng from '../../services/geolocation';
+import getCurWeatherByLatLng from '../../services/weather-api';
 
 
 class App extends Component {
@@ -26,6 +23,7 @@ class App extends Component {
     lat: null,
     lng: null,
     temp: null,
+    icon: null,
     toggle: false,
   };
   
@@ -48,27 +46,39 @@ class App extends Component {
     this.setState({ user: userService.getUser() });
   };
 
-  // async componentDidMount() {
-  //   // Destructure the object returned from getCurrentLatLng()
-  //   const {lat, lng} = await getCurrentLatLng();
-  //   const weatherData = await getCurWeatherByLatLng(lat, lng);
-  //   this.setState({
-  //     lat,
-  //     lng,
-  //     temp: Math.round(weatherData.main.temp),
-  //     icon: weatherData.weather[0].icon
-  //   });
-  // }
+  async componentDidMount() {
+    const loc = await getCurrentLatLng();
+    const weatherData = await getCurWeatherByLatLng(loc.lat, loc.lng);
+    this.setState( (prevState) => ({
+      lat: loc.lat,
+      lng: loc.lng,
+      temp: Math.round(weatherData.main.temp),
+      icon: weatherData.weather[0].icon,
+    }));
+  }
 
   render() {
 
     return (
       <>
+      <div className='Header'>
+        <Map />
+        <header className='App-header'>
+          <div>{this.state.temp}&deg;</div>
+          GET . YOUR . FLEX . ON
+          {this.state.icon && 
+            <img
+              src={`https://openweathermap.org/img/w/${this.state.icon}.png`}
+              alt='Current Conditions'
+            />
+          }
+        </header>
+      </div>
       < NavBar 
         toggle={this.toggle}
         toggleStatus={this.state.toggle}
         user={this.props.user} 
-        />
+      />
       <Switch>
       <Route exact path='/' component={() => 
         <ExerciseContainer exercises={this.state.exercises}/>}  
@@ -80,20 +90,21 @@ class App extends Component {
          
         </>} 
       />
-      <Route exact path='/login/' component={LoginPage} /> 
-      <Route exact path='/signup/' component={SignupForm} /> 
+      <Route exact path='/login/' render={({ history }) => (
+              <LoginPage
+                history={history}
+                handleSignupOrLogin={this.handleSignupOrLogin}
+              />
+            )}
+      /> 
+      <Route exact path='/signup/' render={({ history }) => (
+              <SignupPage
+                history={history}
+                handleSignupOrLogin={this.handleSignupOrLogin}
+              />
+            )}
+      /> 
      
-      {/* <Map lat={this.state.lat} lng={this.state.lng}/>
-        <header className='App-header'>
-          <div>{this.state.temp}&deg;</div>
-          REACT WEATHER
-          {this.state.icon && 
-            <img
-              src={`https://openweathermap.org/img/w/${this.state.icon}.png`}
-              alt='Current Conditions'
-            />
-          }
-        </header> */}
 
       </Switch>
       </>
