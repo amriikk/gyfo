@@ -15,7 +15,7 @@ Catch yourself in the gym lost and confused, or maybe just unorganized when it c
 
 ![App Screenshot 2](https://i.imgur.com/RCeJlTo.jpg)
 
-| [Link to Heroku](https://getyourflexon.herokuapp.com/) :trollface: | [Trello Boards](https://trello.com/b/YJsBaOtU/gyfo) | [GitHub :octocat:](https://github.com/amriikk/gyfo.git/) | [ERD](https://https://app.diagrams.net/#G17JIUN5qrj5ayM6mCNSgtZdq2UAfgV450/) |
+| [Link to Heroku](https://getyourflexon.herokuapp.com/) :trollface: | [Trello Boards :clipboard:](https://trello.com/b/YJsBaOtU/gyfo) | [GitHub :octocat:](https://github.com/amriikk/gyfo.git/) | [ERD :chart_with_upwards_trend:](https://https://app.diagrams.net/#G17JIUN5qrj5ayM6mCNSgtZdq2UAfgV450/) |
 | ------------- |:-------------:| -----:|-----:|
 
 
@@ -60,7 +60,7 @@ Catch yourself in the gym lost and confused, or maybe just unorganized when it c
 
 ## In Development:
 
-- [x] Consuming a music library API :heavy_check_mark:
+- [x] Consuming a 3rd party API :heavy_check_mark:
 
 - [x] Adding to Personal journal functionality for users :heavy_check_mark:
 
