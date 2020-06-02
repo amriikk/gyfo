@@ -1,4 +1,4 @@
-# :muscle: Get.Your.Flex.On :headphones: 
+# :muscle: Get.Your.Flex.On :tm:
 
 ### SEI-DT-71
 
