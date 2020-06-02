@@ -18,6 +18,13 @@ class Workouts extends Component {
     e.preventDefault();
     const { name, reps, description } = this.state;
     console.log(this.props);
+    fetch('/api/exercises/createEx', {
+      method: 'POST',
+      headers: new Headers({'Content-Type': 'application/json'}), 
+      body:JSON.stringify({name, reps, description})
+    }).then(res => res.json() )
+      .then(res2 => console.log(res2))
+      .catch( err => console.log(err) )
     this.props.handleSubmit({name, reps, description});
 
     // push new exercise object into the exercises list in state:  
