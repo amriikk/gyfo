@@ -1,4 +1,4 @@
-# :muscle: Get.Your.Flex.On :tm:
+# :godmode: Get.Your.Flex.On :muscle:
 
 ### SEI-DT-71
 
@@ -15,7 +15,7 @@ Catch yourself in the gym lost and confused, or maybe just unorganized when it c
 
 ![App Screenshot 2](https://i.imgur.com/RCeJlTo.jpg)
 
-| [Link to Heroku](https://getyourflexon.herokuapp.com/) :trollface: | [Trello Boards](https://trello.com/b/YJsBaOtU/gyfo) | [GitHub](https://github.com/amriikk/gyfo.git/) | [ERD](https://https://app.diagrams.net/#G17JIUN5qrj5ayM6mCNSgtZdq2UAfgV450/) |
+| [Link to Heroku](https://getyourflexon.herokuapp.com/) :trollface: | [Trello Boards](https://trello.com/b/YJsBaOtU/gyfo) | [GitHub :octocat:](https://github.com/amriikk/gyfo.git/) | [ERD](https://https://app.diagrams.net/#G17JIUN5qrj5ayM6mCNSgtZdq2UAfgV450/) |
 | ------------- |:-------------:| -----:|-----:|
 
 
