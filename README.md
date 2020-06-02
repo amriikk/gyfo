@@ -2,7 +2,7 @@
 
 ### SEI-DT-71
 
-| :large_blue_circle: John Trujillo |
+:large_blue_circle: John Trujillo 
 
 
 ## Introduction
