@@ -12,6 +12,7 @@ import getCurrentLatLng from '../../services/geolocation';
 import getCurWeatherByLatLng from '../../services/weather-api';
 
 
+
 class App extends Component {
   state = {
     name: "",
@@ -38,6 +39,7 @@ class App extends Component {
   };
 
   handleLogout = () => {
+    console.log('handle log out')
     userService.logout();
     this.setState({ user: null });
   };
@@ -77,11 +79,15 @@ class App extends Component {
       < NavBar 
         toggle={this.toggle}
         toggleStatus={this.state.toggle}
-        user={this.props.user} 
+        handleLogout={this.handleLogout}
+        user={this.state.user} 
       />
       <Switch>
       <Route exact path='/' component={() => 
-        <ExerciseContainer exercises={this.state.exercises}/>}  
+        <>
+        
+        <ExerciseContainer exercises={this.state.exercises}/>
+        </>}  
       />
       <Route exact path='/workouts/' component={() => 
         <>

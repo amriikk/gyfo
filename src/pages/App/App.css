@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-}    
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
@@ -21,6 +22,7 @@ body {
   align-items: center;
   justify-content: space-between;
   font-size: 6vmin;
+  font-family: 'Chelsea Market', cursive;
   color: cyan;
 }
 
@@ -61,6 +63,7 @@ button {
 height: 0;  
 overflow: hidden;
 list-style-type: none;
+font-family: 'Chelsea Market', cursive;
 font-weight: bold;
 text-decoration: none;
 }
@@ -99,4 +102,10 @@ input {
   font-family: 'Josefin Sans', cursive;
   background: skyblue;
   border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Chelsea Market', cursive;
+
 }

@@ -112,6 +112,7 @@ class SignupForm extends Component {
             </div>
           </div>
         </form>
+      <p>{this.state.message}</p>
       </div>
     );
   }
