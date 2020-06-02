@@ -2,11 +2,7 @@
 
 ### SEI-DT-71
 
-| :large_blue_circle: John Trujillo | :black_circle: | :red_circle:  |
-| ------------- |:-------------:| -----:|
-| GitHub Manager| Designer | Database Manager |
-| API Manager   | Documentor  |SCRUM Master |
-| Documentor |  |    |
+| :large_blue_circle: John Trujillo |
 
 
 ## Introduction
@@ -15,9 +11,9 @@ Get.Your.Flex.On
 
 ## Getting Started:
 
-![App Screenshot 2](https://i.imgur.com/FbRw9bO.png)
+![App Screenshot 2](https://i.imgur.com/RCeJlTo.jpg)
 
-| [Link to Heroku](https://getyourflexon.herokuapp.com/) :trollface: | [Trello Boards](https://trello.com/b/YJsBaOtU/gyfo) | [Wireframe](https://github.com/amriikk/inSynch.git/) | [ERD](https://https://app.diagrams.net/#G17JIUN5qrj5ayM6mCNSgtZdq2UAfgV450/) |
+| [Link to Heroku](https://getyourflexon.herokuapp.com/) :trollface: | [Trello Boards](https://trello.com/b/YJsBaOtU/gyfo) | [GitHub](https://github.com/amriikk/gyfo.git/) | [ERD](https://https://app.diagrams.net/#G17JIUN5qrj5ayM6mCNSgtZdq2UAfgV450/) |
 | ------------- |:-------------:| -----:|-----:|
 
 
