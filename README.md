@@ -1,68 +1,82 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :muscle: Get.Your.Flex.On :headphones: 
 
-## Available Scripts
+### SEI-DT-71
 
-In the project directory, you can run:
+| :large_blue_circle: John Trujillo | :black_circle: | :red_circle:  |
+| ------------- |:-------------:| -----:|
+| GitHub Manager| Designer | Database Manager |
+| API Manager   | Documentor  |SCRUM Master |
+| Documentor |  |    |
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Introduction
+Get.Your.Flex.On
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Getting Started:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![App Screenshot 2](https://i.imgur.com/FbRw9bO.png)
 
-### `npm run build`
+| [Link to Heroku](https://getyourflexon.herokuapp.com/) :trollface: | [Trello Boards](https://trello.com/b/YJsBaOtU/gyfo) | [Wireframe](https://github.com/amriikk/inSynch.git/) | [ERD](https://https://app.diagrams.net/#G17JIUN5qrj5ayM6mCNSgtZdq2UAfgV450/) |
+| ------------- |:-------------:| -----:|-----:|
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Technology + Techniques: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###### :small_blue_diamond: HTML5
 
-### `npm run eject`
+###### :small_blue_diamond: CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+###### :small_blue_diamond: JavaScript
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###### :small_blue_diamond: React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+###### :small_blue_diamond: MongoDB
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+###### :small_blue_diamond: Node.js
 
-## Learn More
+###### :small_blue_diamond: Expresso
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+###### :small_blue_diamond: RESTful API
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+*Fonts brought to you by Google-Fonts ('Chelsea', 'Josefin')*
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Preparation + Pseudocode:
 
-### Making a Progressive Web App
+:thought_balloon: Create project directory and initialize repo
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+:thought_balloon: Draw out the wireframe for the pages
 
-### Advanced Configuration
+:thought_balloon: Organize Trello board and add MVP goals
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+:thought_balloon: Implement base CSS styles; fonts, background, colors
 
-### Deployment
+:thought_balloon: Define RESTful routes for the different moods
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+:thought_balloon: Build Full Stack React
 
-### `npm run build` fails to minify
+:thought_balloon: Consume 3rd Party API
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## In Development:
+
+- [x] Consuming a music library API :heavy_check_mark:
+
+- [x] Adding to Personal journal functionality for users :heavy_check_mark:
+
+- [x] A user can sign up on the page :heavy_check_mark:
+
+## Future Features:
+
+- [ ] User can create entire workout plans :busts_in_silhouette:
+
+- [ ] Add the ability for the user to add video workouts for additional resource.
+
+- [ ] Add more animation especially on the buttons :cool:
+
+- [ ] Option for a wider range of exercises and custom workouts :white_square_button:
+
+
+
