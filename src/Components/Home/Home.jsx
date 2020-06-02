@@ -5,7 +5,9 @@ const logo = require('../../assets/gyfo.jpg');
 const Home = () => {
     return(
         <div className="gyfo-logo">
-        <img src={logo}  />
+        <br /><br />
+        <img src={logo} alt='gyfo-logo' />
+        <br /><br />
         </div>
     );   
 }

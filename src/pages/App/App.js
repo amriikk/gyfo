@@ -10,7 +10,7 @@ import userService from "../../utils/userService";
 import Map from '../../Components/Map/Map';
 import getCurrentLatLng from '../../services/geolocation';
 import getCurWeatherByLatLng from '../../services/weather-api';
-import Home from '../../Components/Home/Home';
+import Carousel from '../../Components/Carousel/Carousel';
 
 
 class App extends Component {
@@ -85,7 +85,7 @@ class App extends Component {
       <Switch>
       <Route exact path='/' component={() => 
         <>
-        <Home />
+        <Carousel />
         <ExerciseContainer exercises={this.state.exercises}/>
         </>}  
       />

@@ -1,5 +1,6 @@
-div.gyfo-logo {
+img.gyfo-logo {
     display: flex;
     align-content: center;
-    width: 100%;
+    border-radius: 8px;
+    width: 100px;
 }

@@ -14,6 +14,7 @@ header.gyfo {
   color: cyan;
   display: flex;
   align-items: center;
+  background: rgb(0, 0, 51, .75);
   font-size: 24px;
   font-family: 'Chelsea Market', cursive;
   justify-content: space-between;
@@ -79,7 +80,7 @@ text-decoration: none;
 }
 
 .show-nav {
-  height: 150px;
+  height: 120px;
 }  
 
 /* Media screen size */
