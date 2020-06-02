@@ -7,7 +7,7 @@
 
 ## Introduction
 
-### Get.Your.Flex.On ###
+#### Get.Your.Flex.On ####
 Catch yourself in the gym lost and confused, or maybe just unorganized when it comes to the execution of your workouts. If you want to take your training to the next level. Organizing your workouts and managing your time are the keys to you succeeding. Use GYFO as a fitness tool to get ahead and ***GET YOUR FLEX ON!!!***
 
 
