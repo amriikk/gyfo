@@ -65,7 +65,7 @@ class App extends Component {
       <>
       <div className='Header'>
         <Map />
-        <header className='App-header'>
+        <header className='gyfo'>
           <div>{this.state.temp}&deg;</div>
           GET . YOUR . FLEX . ON
           {this.state.icon && 
