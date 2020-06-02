@@ -1,4 +1,4 @@
-# :godmode: Get.Your.Flex.On :muscle:
+# :muscle: Get.Your.Flex.On :punch:
 
 ### SEI-DT-71
 
