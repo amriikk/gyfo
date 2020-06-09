@@ -21,7 +21,7 @@ const NavBar = (props) => {
             },
         ];
 
-        const li_2 = [
+    const li_2 = [
             {
                 link: "/",
                 text:"Dashboard"
@@ -37,7 +37,7 @@ const NavBar = (props) => {
                 text:"Journal",
                 isLoggedIn: true,
             },
-        ];
+    ];
 
 
       

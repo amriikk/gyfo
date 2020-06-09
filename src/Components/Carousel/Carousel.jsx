@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Carousel.css'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
  
@@ -12,16 +13,14 @@ class GYFOCarousel extends Component {
                 </div>
                 <div>
                     <img src="https://i.imgur.com/v9HnMLO.jpg" alt='gyfo1'/>
-                    <img src='https://i.imgur.com/95ByChg.jpg' alt='gyfo2'/>
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img src="https://i.imgur.com/Lw6lxUe.jpg" alt='gyfo3'/>
+                    <img src="https://i.imgur.com/Lw6lxUe.jpg" alt='gyfo2'/>
                     <p className="legend">Legend 2</p>
                 </div>
                 <div>
-                    <img src='https://i.imgur.com/95ByChg.jpg' alt='gyfo1'/>
-                    <img src="https://i.imgur.com/v9HnMLO.jpg" alt='gyfo2'/>
+                    <img src='https://i.imgur.com/95ByChg.jpg' alt='gyfo3'/>
                     <p className="legend">Legend 3</p>
                 </div>
             </Carousel>

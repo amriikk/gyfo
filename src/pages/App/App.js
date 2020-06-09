@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import Map from '../../Components/Map/Map';
 import NavBar from '../../Components/NavBar/NavBar';
 import Workouts from '../../Components/Workouts/Workouts';
 import ExerciseContainer from '../../Components/Exercise/ExerciseContainer';
 import LoginPage from '../LoginPage/LoginPage'
 import SignupPage from '../SignupPage/SignupPage'
 import userService from "../../utils/userService";
-import Map from '../../Components/Map/Map';
 import getCurrentLatLng from '../../services/geolocation';
 import getCurWeatherByLatLng from '../../services/weather-api';
 import Carousel from '../../Components/Carousel/Carousel';
@@ -85,6 +85,7 @@ class App extends Component {
       <Switch>
       <Route exact path='/' component={() => 
         <>
+        <br /><br />
         <Carousel />
         <ExerciseContainer exercises={this.state.exercises}/>
         </>}  
