@@ -1,23 +1,21 @@
-# :muscle: Get.Your.Flex.On :tm:
+# :muscle: Get.Your.Flex.On :punch:
 
 ### SEI-DT-71
 
-| :large_blue_circle: John Trujillo | :black_circle: | :red_circle:  |
-| ------------- |:-------------:| -----:|
-| GitHub Manager| Designer | Database Manager |
-| API Manager   | Documentor  |SCRUM Master |
-| Documentor |  |    |
+:large_blue_circle: John Trujillo 
 
 
 ## Introduction
-Get.Your.Flex.On
+
+#### Get.Your.Flex.On ####
+Catch yourself in the gym lost and confused, or maybe just unorganized when it comes to the execution of your workouts. If you want to take your training to the next level. Organizing your workouts and managing your time are the keys to you succeeding. Use GYFO as a fitness tool to get ahead and ***GET YOUR FLEX ON!!!***
 
 
 ## Getting Started:
 
-![App Screenshot 2](https://i.imgur.com/FbRw9bO.png)
+![App Screenshot 2](https://i.imgur.com/RCeJlTo.jpg)
 
-| [Link to Heroku](https://getyourflexon.herokuapp.com/) :trollface: | [Trello Boards](https://trello.com/b/YJsBaOtU/gyfo) | [Wireframe](https://github.com/amriikk/inSynch.git/) | [ERD](https://https://app.diagrams.net/#G17JIUN5qrj5ayM6mCNSgtZdq2UAfgV450/) |
+| [Link to Heroku](https://getyourflexon.herokuapp.com/) :trollface: | [Trello Boards :clipboard:](https://trello.com/b/YJsBaOtU/gyfo) | [GitHub :octocat:](https://github.com/amriikk/gyfo.git/) | [ERD :chart_with_upwards_trend:](https://https://app.diagrams.net/#G17JIUN5qrj5ayM6mCNSgtZdq2UAfgV450/) |
 | ------------- |:-------------:| -----:|-----:|
 
 
@@ -62,7 +60,7 @@ Get.Your.Flex.On
 
 ## In Development:
 
-- [x] Consuming a music library API :heavy_check_mark:
+- [x] Consuming a 3rd party API :heavy_check_mark:
 
 - [x] Adding to Personal journal functionality for users :heavy_check_mark:
 
