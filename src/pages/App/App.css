@@ -7,7 +7,7 @@
 
 body {
   background: url(https://i.imgur.com/PKMRjK9.jpg) no-repeat;
-  font-family: 'Josefin Sans', cursive;
+  font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
 }
 
 header.gyfo {
@@ -16,7 +16,7 @@ header.gyfo {
   align-items: center;
   background: rgb(0, 0, 51, .75);
   font-size: 24px;
-  font-family: 'Chelsea Market', cursive;
+  font-family: 'Chelsea Market', Verdana, Tahoma, sans-serif;
   justify-content: space-between;
   padding: 10px;
 }
@@ -33,7 +33,7 @@ header.gyfo {
   align-items: center;
   justify-content: space-between;
   font-size: 6vmin;
-  font-family: 'Chelsea Market', cursive;
+  font-family: 'Chelsea Market', Verdana, Tahoma, sans-serif;
   color: cyan;
 }
 
@@ -74,7 +74,7 @@ button {
 height: 0;  
 overflow: hidden;
 list-style-type: none;
-font-family: 'Chelsea Market', cursive;
+font-family: 'Chelsea Market', Verdana, Tahoma, sans-serif;
 font-weight: bold;
 text-decoration: none;
 }
@@ -110,13 +110,13 @@ form {
 }  
 
 input {
-  font-family: 'Josefin Sans', cursive;
+  font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
   background: skyblue;
   border-radius: 5px;
 }
 
 h2 {
   text-align: center;
-  font-family: 'Chelsea Market', cursive;
+  font-family: 'Chelsea Market', Verdana, Tahoma, sans-serif;
 
 }

@@ -49,7 +49,7 @@ class SignupForm extends Component {
     return (
       <div>
         <br />
-        <header className="header-footer">Sign Up</header><br />
+        <header className="headerSignUp">Sign Up</header><br />
         <form className="form-horizontal" onSubmit={this.handleSubmit}>
           <div className="form-group">
             <div className="col-sm-12">

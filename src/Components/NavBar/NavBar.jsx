@@ -58,29 +58,6 @@ const NavBar = (props) => {
 
      </div> )
         
-        
-        // props.user ? (
-        //     <div>
-        //     <br />
-        //     <span className="NavBar-welcome">WELCOME, {props.user.name} </span>
-        //     <Link to="" className="Nav-Logout" onClick={props.handleLogout}>
-        //         LOG OUT
-        //     </Link>
-        //     </div>
-        //     ) : (
-        //     <div className="navBar">
-        //     <button onClick={props.toggle}>
-        //         <FaAlignRight />
-        //     </button>
-        //     <ul className={props.toggleStatus ? "links show-nav" : "links"}>
-        //         {
-        //             li.map((objLink, i) => {
-        //                 return ( <li key={i}><Link to={objLink.link}>{objLink.text}</Link></li> )
-        //             })
-        //         }
-        //     </ul>
-        //  </div>
-        // );
         return (<div className="NavBar">
             {nav}
                     {props.user ? (
@@ -93,7 +70,7 @@ const NavBar = (props) => {
             </div>
             ) : null }
             {/* {nav} <br /> */}
-                </div>
+    </div>
             )
 };
 

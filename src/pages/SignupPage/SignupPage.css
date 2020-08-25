@@ -7,3 +7,8 @@
     border-radius: 5px;
   }
 
+.headerSignUp {
+  color: aliceblue;
+  font-weight: bold;
+  background: blue
+}
