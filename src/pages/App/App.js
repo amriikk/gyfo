@@ -87,7 +87,6 @@ class App extends Component {
         <>
         <br /><br />
         <Carousel />
-        <ExerciseContainer exercises={this.state.exercises}/>
         </>}  
       />
       <Route exact path='/workouts/' component={() => 
